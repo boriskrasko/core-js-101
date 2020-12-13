@@ -128,8 +128,8 @@ function repeatString(value, count) {
  *   'I like legends', 'end' => 'I like legs',
  *   'ABABAB','BA' => 'ABAB'
  */
-function removeFirstOccurrences(/* str, value */) {
-  throw new Error('Not implemented');
+function removeFirstOccurrences(str, value) {
+  return str.replace(value, '');
 }
 
 /**
@@ -207,7 +207,6 @@ function extractEmails(str) {
 function getRectangleString(/* width, height */) {
   throw new Error('Not implemented');
 }
-
 
 /**
  * Encode specified string with ROT13 cipher
