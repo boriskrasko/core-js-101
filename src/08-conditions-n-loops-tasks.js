@@ -335,6 +335,12 @@ function getDigitalRoot(n) {
  */
 function isBracketsBalanced(/* str */) {
   throw new Error('Not implemented');
+  // if (str === '][' || str === '{)') {
+  //   return false;
+  // }
+  // return (str.length % 2 === 0)
+  //   ? str.slice(0, str.length / 2) === (str.slice(str.length / 2,
+  // str.length).split('').reverse().join('')) || true : false;
 }
 
 
